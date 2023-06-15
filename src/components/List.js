@@ -43,7 +43,7 @@ function List({ description, id, descriptionSummary}) {
   return (
     <div className="list-container">
       <div className="left-icons">
-        <MdOutlineMenu className="menu-icon" size={25}/>
+        <MdOutlineMenu className="menu-icon" size={25} />
         <AiOutlineInfoCircle onClick={handleInfoClick} size={21} />
       </div>
       <div className="description-edit-container">
@@ -80,5 +80,3 @@ function List({ description, id, descriptionSummary}) {
 }
 
 export default List;
-
-    
