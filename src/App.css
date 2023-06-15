@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+  margin: 5px 280px 0px 280px;
+}
+
+h1 {
+  margin-bottom: 60px;
+  padding-top: 20px;
+  font-weight: normal;
+}
+
+.edit-input {
+  border: none;
+  outline: none;
+  background-color: #f7f7f7;
+  padding: 5px 10px;
+  font-size: 18px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.save-edited {
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: white;
+    color: rgb(58, 57, 57);
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+
+.large-button {
+  font-size: 26px;
+  padding: 18px 200px;
+  border-radius: 8px;
+  background-color: #9b59b6; /* Purple color */
+  color: white;
+  border: none;
+}
+
+.large-button:hover {
+  background-color: #8e44ad; /* Darker shade of purple on hover */
+  cursor: pointer;
+}
+
+.list-container {
+  visibility: visible;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px; /* or any desired amount of spacing */
+}
+
+.left-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 8px; /* or any desired amount of spacing */
+}
+
+.right-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 8px; /* updated margin */
+}
+
+.description-edit-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 8px; /* or any desired amount of spacing */
+  font-size: 20px; /* or any desired font size */
+}
+
+.edit-icon {
+  /* margin-left: 18px; */
+  margin-right: 28px;
+  cursor: pointer;
+}
+
+.menu-icon {
+  margin-right: 8px;
+}
+
+.ticket {
+  position: absolute;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 16px;
+  z-index: 1;
+}
+
+.description {
+  margin: 0;
+}
+
+.show-icon {
+  margin-right: 28px;
+  cursor: pointer;
+}
+
+.menu-icon:hover, .description-edit-container > svg:hover {
+  cursor: pointer;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #e1e1e1; /* or any desired color */
+  margin-top: -5px; /* or adjust as needed to move the line up */
+  margin-bottom: 20px;
+}
